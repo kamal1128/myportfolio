@@ -1,4 +1,3 @@
-#html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,13 +54,13 @@
        <h2 class="myprojects">MY PROJECTS</h2>
        <H4>PROJECT ONE</H4>
        <OL><STrong>PORTFOLIO</STrong> using <SPan>HTML</SPan> , <SPan>CSS</SPan> , <SPan>JAVASCRIPT</SPan></OL>
-       <a href="">git link</a>
+       <a href="https://github.com/kamal1128">git link</a>
    </div>
    <footer>
        <DIV id="contact">
            <h2 class="mycontact">CONTACT</h2>
            <p class="space">GMAIL: kamalkandukuri12345@gmail.com </p>
-           <p class="space">GIT:</p>
+           <p class="space">github:https://github.com/kamal1128</p>
            <p class="space">PHONE:+91 9347898813</p>
        </DIV>
    </footer>
@@ -75,7 +74,10 @@
 
 
 
-#css
+
+
+   //CSS
+   
 *{ 
   margin: 0;
   box-sizing: border-box;
@@ -91,11 +93,18 @@ body{
   background-color: rgb(11, 11, 11);
   color: rgb(195, 185, 185);
 }
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
 header{
   background-color: rgb(20, 19, 19);
   color: white;
   text-align: center;
-  
+  background: url('IMM.jpg') no-repeat center/cover;
+  color: white;
+  animation: fadeIn 2s ease-in;
   display: flex;
   justify-content: space-between;
  
